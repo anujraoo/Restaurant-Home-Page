@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    text-transform: capitalize;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px wheat;
+
+}
+.company{
+    background-image: url("logo.png");
+    height: 70px;
+    width: 189px;
+    background-size: cover;
+    margin-top:10px;
+    margin-left: 100px;
+}
+.bars{
+    font-size: 25px;
+    margin-top:10px;
+    margin-right: 100px;
+}
+.hero-section{
+    width: 1300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.hero-image{
+    background-image: url("hero_image.png");
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    margin-right: 40px;
+}
+.off{
+    height: 30px;
+    width: 200px;
+    background-color:rgb(13, 233, 13);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore{
+    background-color: orange;
+    height: 50px;
+    width: 160px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enjoy{
+    font-size: 25px;
+    width: 400px;
+}
+.hero-content{
+    margin-left: 30px;
+}    
+.discount-logo{
+    background-image: url("discount.jpg");
+    background-size: cover;
+    height: 90px;
+    width: 95px;
+    margin-right: 10px;
+}
+.fresh-logo{
+    background-image: url("fast1.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+.fast-logo{
+    background-image: url("fast.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+.fresh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.fast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our{
+    height: 40px;
+    width: 120px;
+    background-color: green;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.menu-container{
+    display: flex;
+    justify-content: center;
+}
+.parent{
+    display: grid;
+    border: 2px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 700px;
+    width: 1200px;
+    grid-gap: 20px;
+}
+.one{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-image: url("grid_image1.png");
+    background-size: cover;
+}
+.two{
+    grid-column: 3/4;
+    grid-row: 1/3;
+    background-image: url("grid_image2.png");
+    background-size: cover;
+}    
+.three{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-image: url("grid_image3.png");
+    background-size: cover;
+}
+.four{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    background-image: url("grid_image4.png");
+    background-size: cover;
+}
+.five{
+    grid-column: 2/3;
+    background-image: url("grid_image5.png");
+    background-size: cover;
+}
+.six{
+    background-image: url("grid_image6.png");
+    background-size: cover;
+}
+.seven{
+    background-image: url("grid_image7.png");
+    background-size: cover;
+    grid-row: 2/4;
+}
+.grid-cont{
+    display: flex;
+    justify-content: center;
+}
+.footer1{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 185px;
+}
+.heading{
+    font-size: 20px;
+    color: gray;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:blanchedalmond;
+    height: 300px;
+}
+i{
+    margin-right: 10px;
+    font-size: large;
+}
